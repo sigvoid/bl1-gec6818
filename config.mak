@@ -40,7 +40,7 @@ CHIPNAME			= S5P6818
 
 CFLAGS				:=
 
-SUPPORT_USB_BOOT		= y
+SUPPORT_USB_BOOT		= n
 SUPPORT_SDMMC_BOOT		= y
 
 #BOARD				= SVT
@@ -49,10 +49,10 @@ SUPPORT_SDMMC_BOOT		= y
 #BOARD				= AVN
 #BOARD				= BF700
 #BOARD				?= RAPTOR
-BOARD				= NANOPI
+BOARD				= GEC6818
 
 # System Log Message
-SYSLOG				?= n
+SYSLOG				= y
 
 # Secure Boot
 SECURE_ON			?= 0
