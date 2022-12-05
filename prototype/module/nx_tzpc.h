@@ -48,7 +48,7 @@ extern "C"
 		volatile U32 PCELLID[4];						// 0xFF0~0xFFC
 	};
 
-enum
+typedef enum
 {
 	NX_TZPC_SMODE_SECURE	= 0,
 	NX_TZPC_SMODE_NONSECURE	= 1

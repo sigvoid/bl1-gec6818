@@ -66,7 +66,7 @@ extern "C"
 		volatile U32 COMPONENT_ID[4];		// 0xFF0~0xFFC
 	};
 
-enum {
+typedef enum {
 	TZPORT_IOPERI_BUS_M0	= 0,
 	TZPORT_IOPERI_BUS_M1	= 1,
 	TZPORT_IOPERI_BUS_M2	= 2,
@@ -103,7 +103,7 @@ enum {
 	TZPORT_SFR2_BUS_M5		=53,
 }TZPORT;
 
-enum {
+typedef enum {
 	NX_TZASC_REACTION_INTLOW_OKAY		= 0,
 	NX_TZASC_REACTION_INTLOW_DECERR		= 1,
 	NX_TZASC_REACTION_INTHIGH_OKAY		= 2,
